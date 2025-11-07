@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage</title>
+  <style>
+    /* BODY BACKGROUND */
+    body {
+      margin: 20px;
+      padding: 15px;
+      background: linear-gradient(to bottom right, rgb(23, 168, 129), rgb(8, 103, 116));
+      font-family: Arial, sans-serif;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-image: linear-gradient(to bottom left,rgb(60, 255, 0),rgb(215, 123, 10));
+    }
+
+    .navlink {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+
+    .navlink a {
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    /* SIGN UP & LOGIN BUTTONS */
+    .please {
+      display: flex;
+      gap: 10px;
+    }
+
+    .nav {
+      padding: 8px 15px;
+      border: none;
+      background-color: lightgreen;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 10px; /* ✅ Rounded buttons only */
+    }
+
+    .nav:hover {
+      background-color: green;
+      color: white;
+    }
+
+    /* MAIN IMAGE + TEXT */
+    .Image {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .Image img.web {
+      width: 20%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    
+    .rightside {
+      width: fit-content;
+      margin-left: auto; 
+      margin-top: 20px;
+      background: transparent;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .rightside img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    /* TEXT PARAGRAPH */
+    p span {
+      display: block;
+      padding-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    h1 {
+      text-align: center;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="">
+      <img src="https://images.shiksha.com/mediadata/images/1733923616phpHGKPuM.jpeg" alt="SAITM" width="120">
+    </a>
+
+    <ul class="navlink">
+      <li><a href="assign.html">Home</a></li>
+      <li><a href="begari.html">Contact us</a></li>
+      <li><a href="Practice.html">About us</a></li>
+      <li><a href="payment_form.html">Services</a></li>
+    </ul>
+
+    <div class="please">
+      <button class="nav"><a href="signup.html">Sign Up</a></button>
+      <button class="nav"><a href="login.html">Log In</a></button>
+    </div>
+  </nav>
+
+  <!-- HEADING -->
+  <h1>MY WEBSITE</h1>
+
+  
+  <div class="Image">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Ilh-8PdA6pg5qupWvtdQRM_ZdPBIFObJbQ&s"
+      alt="Web Developer"
+      class="web"
+    >
+    <p>
+      <span>This page includes all my important HTML files. I made this so I remember things in one place. I created this website as a place to bring together all of my HTML practice work and small projects in one easy and organized way.</span>
+      <span>This website became that space for me. It’s like my personal collection of everything I’ve learned, built, and practiced while exploring how websites are made. In the navigation bar at the top, you’ll find links to all my files, including my cartoon practice page, HTML assignments, and other experiments I’ve done while learning.</span>
+      <span>Through this site, I get to see my own progress and understand how my coding skills have grown with every small project I complete. I also wanted this website to feel simple and welcoming. That’s why I focused on keeping the design clean, colorful, and easy to explore.</span>
+      <span>Whether it’s an HTML assignment or a small creative experiment, everything here has been made with the purpose of learning and improving step by step. This site isn’t just for me — it’s also for anyone who’s beginning their HTML journey.</span>
+      <span>Building this website has taught me how powerful HTML and CSS can be, even in their simplest forms. I’ll keep updating it as I learn more about web design and development. This is just the beginning — a simple website that tells the story of my learning journey and creativity through every page, line of code, and idea I’ve built.</span>
+    </p>
+  </div>
+
+  <!-- EARTH IMAGE ON RIGHT SIDE WITH COLORED BACKGROUND -->
+  <div class="rightside">
+    <img src="30159019_18vp_1x5c_220706.jpg" alt="Earth">
+  </div>
+</body>
+</html>
